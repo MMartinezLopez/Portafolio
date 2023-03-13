@@ -1,5 +1,4 @@
 
-let current='home';
 window.addEventListener('scroll', (current)=>{
     document.querySelectorAll("section").forEach(section=> {
         if(window.scrollY >section.offsetTop-50){
@@ -15,4 +14,3 @@ window.addEventListener('scroll', (current)=>{
         }
     })
 })
-

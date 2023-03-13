@@ -4,10 +4,11 @@
     --text: #CACACA;
 
   }
-
-  @media (width:500px) {
-    body {
-      width: 500px;
+  
+  /* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+  @media only screen and (max-width : 900px) {
+    html{
+      width: 900px;
     }
   }
 
@@ -25,7 +26,7 @@
   }
 
   h1{
-    font-weight: 200;
+    font-weight: 600;
   }
 
   nav {
@@ -71,6 +72,25 @@
     display: grid;
     place-items: center;
     text-align: center;
+  }
+
+  section p{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 300;
+    text-align: justify;
+    margin: 0 auto;
+  }
+
+  br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 20%;
+  }
+  strong{
+    font-weight: 500;
   }
 
   .intro img {
@@ -137,6 +157,9 @@
     padding: 5px;
   }
 
+  .about{
+    width: 400px;
+  }
 
   :any-link {
     text-decoration: none;
@@ -176,6 +199,16 @@
     opacity: 0;
   }
 
+  .overlay p{
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    padding:2px;
+    background-color:rgba(255, 255, 255, 0.2);
+    color:#74EBD5;
+  }
+
   .project-desc{
     padding: 20px;
     text-transform: uppercase;
@@ -185,9 +218,6 @@
     color: white;
   }
 
-  .project-desc span{
-    color:#74EBD5;
-  }
 
   .project-tile:hover .overlay{
     transition:step-start 2s;
