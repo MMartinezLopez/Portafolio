@@ -8,7 +8,7 @@
   /* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
   @media only screen and (max-width : 900px) {
     html{
-      width: 900px;
+      width: 500px;
     }
   }
 
