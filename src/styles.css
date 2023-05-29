@@ -4,6 +4,20 @@
     --text: #CACACA;
 
   }
+
+  ::-webkit-scrollbar{
+    width: 0.4em;
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: .5em;
+    background:#303841;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background:#007070;
+  }
+  ::-webkit-scrollbar-track{
+    background: #CACACA;
+  }
   
 
   html {
@@ -16,7 +30,7 @@
   body {
     box-sizing: border-box;
     font-family: Montserrat;
-    background: linear-gradient(18deg, rgb(221, 221, 221), rgb(110, 136, 161));}
+    background-image: linear-gradient(120deg, rgba(176,229,208,1), rgba(92,202,238,0.41));}
 
   h1{
     font-weight: 600;
