@@ -26,13 +26,14 @@
     left: 0;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    background-color: var(--project);
   }
 
   body {display:grid;
     place-items: center;
     box-sizing: border-box;
     font-family: Montserrat;
-    background-image: linear-gradient(120deg, rgba(176,229,208,1), rgba(92,202,238,0.41));}
+    background-image: linear-gradient(120deg, rgba(176,229,208,0.7), rgba(92,202,238,0.5));}
 
   h1{
     font-weight: 600;
