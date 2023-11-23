@@ -203,6 +203,7 @@
   }
 
   .project-tile {
+    transition: .5s ease-in-out 0ms;
     border-radius: 10px;
     background-color: var(--project);
     width: 100%;
@@ -210,6 +211,7 @@
   }
 
   .overlay{
+    transition: .5s ease-in-out 0ms;
     height: 105%;
     display: flex;
     justify-content: center;
