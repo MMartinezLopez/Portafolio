@@ -1,6 +1,6 @@
   :root {
-    --navlinks:#a7bcb9;
-    --links: #118a7e;
+    --navlinks:#8ea79d;;
+    --links: #74EBD5;
     --project: #383838;
     --text: #CACACA;
 
@@ -16,11 +16,11 @@
     background:var(--project);
   }
   ::-webkit-scrollbar-thumb:hover{
-    background:var(--links)
+    background:var(--navlinks)
   }
   
   ::-webkit-scrollbar-track{
-    background:var(--links)
+    background:var(--text)
   }
 
   html {
@@ -28,10 +28,12 @@
     left: 0;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
-    background-color: var(--project);
   }
 
-  body {display:grid;
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display:grid;
     place-items: center;
     box-sizing: border-box;
     font-family: Montserrat;
