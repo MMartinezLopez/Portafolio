@@ -36,14 +36,17 @@
     display:grid;
     place-items: center;
     box-sizing: border-box;
-    font-family: Montserrat;
+    font-family: Ibm plex mono;
     background-color: #222}
 
   h1{
-    color: var(--navlinks);
     font-weight: 600;
+    
+    color: var(--navlinks);
   }
   #home h1{
+    font-family: Montserrat;
+    color: var(--navlinks);
     color:black;
   }
 
@@ -73,6 +76,11 @@
     padding: 4px;
   }
 
+  .navlink:hover .code{
+    transition: ease-in-out 0.5s;
+    color: var(--links);
+  }
+
   .active {
     transition: ease-in-out 0.5s;
     background-color: rgba(255, 255, 255, 0.2);
@@ -93,7 +101,7 @@
   }
 
   .about p{
-    font-family: Poppins;
+    font-family: Space Mono;
     border-radius: 10px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -204,7 +212,7 @@
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.2);
     width: 80%;
-    max-height:390px;
+    max-height:300px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
@@ -244,11 +252,15 @@
 
   .project-desc{
     padding: 15px;
-    text-transform: uppercase;
-    font-family: Montserrat;
+    font-family: IBM Plex Mono;
     font-weight: 400;
-    font-size: 9px;
+    font-size: 10px;
     color: white;
+  }
+
+  .project-desc p{
+    text-transform: uppercase;
+    font-family: Space Mono;
   }
 
 
